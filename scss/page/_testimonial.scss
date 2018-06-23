@@ -1,0 +1,25 @@
+.testimonial {
+    padding: 70px 0 50px 0;
+    background: #fafafa;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    &__quotes {
+        font-size: 27px;
+        font-style: italic;
+        font-family: $font_roboto;
+        color: $color_primary;
+    }
+    &__designer {
+        &--name {
+            font-size: 14px;
+            font-family:$font_montserrat;
+            font-weight: 600;
+        }
+        &--job{
+            font-size: 13px;
+            font-family:$font_roboto;
+           color:  $color_primary;
+        
+        }
+    }
+}

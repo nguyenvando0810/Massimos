@@ -1,0 +1,68 @@
+.footer {
+    background: $color_active;
+    padding-top: 70px;
+    color: #ffffff;
+    &__heading {
+        font-family: $font_montserrat;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    hr {
+        width: 15%;
+        background: $color_primary;
+        float: left;
+        margin-bottom: 40px;
+    }
+    &__logo {
+        font-family: $font_dancing;
+        font-size: 40px;
+    }
+    &__description {
+        font-family: $font_roboto;
+        font-size: 13px;
+        color: #aaaaaa;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    &__adress {
+        @extend .footer__description;
+        padding: 0;
+        padding-bottom: 20px;
+    }
+    &__phone {
+        @extend .footer__adress;
+    }
+    &__mail {
+        @extend .footer__adress;
+    }
+    &__icon {
+        color: #f5a64a;
+        margin-right: 15px;
+    }
+    &__form {
+        input {
+            background: #333333;
+            font-style: italic;
+            border: none;
+            border-radius: 0;
+            font-style: $font_roboto;
+        }
+        button {
+            background: #ffffff;
+            color: $color_active;
+            font-size: 12px;
+            font-family: $font_montserrat;
+            font-weight: 600;
+            border-radius: 0;
+            border: none;
+        }
+    }
+    .feature-new {
+        &__description {
+            font-size: 12px;
+            font-family: $font_montserrat;
+            text-transform: uppercase;
+            color: #aaaaaa;
+        }
+    }
+}
